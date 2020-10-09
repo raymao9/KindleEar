@@ -4,8 +4,8 @@
 KindleEar配置文件，请务必修改开始两个配置（如果使用uploader，则uploader自动帮你修改）
 """
 
-SRC_EMAIL = "akindleear@gmail.com"  #Your gmail account for sending mail to Kindle
-DOMAIN = "http://kindleear.appspot.com/" #Your domain of app
+SRC_EMAIL = "kindlebird16@gmail.com"  #Your gmail account for sending mail to Kindle
+DOMAIN = "https://kindleear-156606.appspot.com" #Your domain of app
 
 TIMEZONE = 8  #Default timezone, you can modify it in webpage after deployed
 
@@ -79,16 +79,16 @@ SENDMAIL_ALL_POSTFIX = False
 #翻墙转发服务器源码：http://github.com/cdhigh/forwarder
 #SHARE_FUCK_GFW_SRV = "http://forwarder.ap01.aws.af.cm/?k=xzSlE&t=60&u=%s"
 SHARE_FUCK_GFW_SRV = "http://kforwarder.herokuapp.com/?k=xzSlE&t=60&u=%s"
-SAVE_TO_EVERNOTE = u"Save to Evernote"
-SAVE_TO_WIZ = u"Save to Wiz"
-SAVE_TO_POCKET = u"Save to Pocket"
-SAVE_TO_INSTAPAPER = u"Save to Instapaper"
-SHARE_ON_XWEIBO = u"Share on Sina Weibo"
-SHARE_ON_TWEIBO = u"Share on Tencent Weibo"
-SHARE_ON_FACEBOOK = u"Share on Facebook"
-SHARE_ON_TWITTER = u"Tweet it"
-SHARE_ON_TUMBLR = u"Share on Tumblr"
-OPEN_IN_BROWSER = u"Open in Browser"
+SAVE_TO_EVERNOTE = u"保存到 Evernote"
+SAVE_TO_WIZ = u"保存到 WizNote"
+SAVE_TO_POCKET = u"保存到 Pocket"
+SAVE_TO_INSTAPAPER = u"保存到 Instapaper"
+SHARE_ON_XWEIBO = u"分享到新浪微博"
+SHARE_ON_TWEIBO = u"分享到腾讯微博"
+SHARE_ON_FACEBOOK = u"分享到 Facebook"
+SHARE_ON_TWITTER = u"分享到 Twitter"
+SHARE_ON_TUMBLR = u"分享到 Tumblr"
+OPEN_IN_BROWSER = u"用浏览器打开"
 
 POCKET_CONSUMER_KEY = '50188-e221424f1c9ed0c010058aef'
 
