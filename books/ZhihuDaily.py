@@ -46,8 +46,9 @@ class ZhihuDaily(BaseFeedBook):
     #http_forwarder = 'http://forwarder.ap01.aws.af.cm/?k=xzSlE&t=60&u=%s'
     http_forwarder = 'https://kindle-rss-forward.herokuapp.com/?k=xzSlE&t=60&u=%s'
     
+    #今日头条 http://news.at.zhihu.com/api/1.2/news/latest
     feeds = [
-            (u'今日头条', 'http://news.at.zhihu.com/api/1.2/news/latest'),
+            (u'今日头条', 'https://kindle-rss-forward.herokuapp.com/?k=xzSlE&t=60&u=http://news.at.zhihu.com/api/1.2/news/latest'),
            ]
            
     partitions = [('top_stories',u'今日头条'),('news',u'今日热闻'),]
