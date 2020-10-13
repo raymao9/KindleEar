@@ -44,6 +44,7 @@ class ZhihuDaily(BaseFeedBook):
     """
     
     #http_forwarder = 'http://forwarder.ap01.aws.af.cm/?k=xzSlE&t=60&u=%s'
+    http_forwarder = 'https://kindle-rss-forward.herokuapp.com/?k=xzSlE&t=60&u=%s'
     
     feeds = [
             (u'今日头条', 'http://news.at.zhihu.com/api/1.2/news/latest'),
